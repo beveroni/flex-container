@@ -1,0 +1,38 @@
+/*Tady piš svůj kód*/
+
+/*-------------*/
+*,
+:before,
+:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #2c3e66;
+  background-color: #ececf6;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #f2f3ff;
+  padding: 0.5rem;
+  box-shadow: 1px 0px 8px #c2d1dd;
+}
+
+a {
+  display: block;
+}
+
+.feature {
+  padding: 0.5rem;
+}
+
+img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
